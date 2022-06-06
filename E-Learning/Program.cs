@@ -1,4 +1,11 @@
+using E_Learning.Models;
+
 var builder = WebApplication.CreateBuilder(args);
+
+//
+builder.Services.AddDbContext<ApplicationDbContext>();
+//
+
 
 // Add services to the container.
 
