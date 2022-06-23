@@ -5,7 +5,7 @@ namespace E_Learning.Models
     public class Class
     {
         [Key]
-        public Guid ID { get; set; }
+        public string ID { get; set; }
         public string Class_Name { get; set; }
         public string Description { get; set; }
         public User Teacher { get; set; }

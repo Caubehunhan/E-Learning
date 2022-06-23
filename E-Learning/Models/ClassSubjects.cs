@@ -5,7 +5,7 @@ namespace E_Learning.Models
     public class ClassSubjects
     {
         [Key]
-        public Guid ID { get; set; }
+        public string ID { get; set; }
         public Class Class { get; set; }
         public DateTime ThoiGian { get; set; }
         public Subjects subjects { get; set; }
